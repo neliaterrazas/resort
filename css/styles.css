@@ -38,3 +38,36 @@ img {
   max-width: 33%;
   height: auto;
 }
+
+ul {
+  color: red;
+  font-family: sans-serif;
+  background-color: lightgreen;
+}
+
+ol {
+  color: red;
+  font-family: sans-serif;
+  background-color: lightgreen;
+}
+
+a:hover {
+  background-color: yellow;
+  color: red;
+}
+
+@keyframes fade {
+  0%    {background-color: lightblue;}
+  25%   {background-color: cyan;}
+  50%   {background-color: lightyellow;}
+  75%   {backgrond-color: lightpink;}
+  100%  {background-color: lightblue;}
+}
+
+body {
+  background-color: lightblue;
+  animation-name: fade;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
