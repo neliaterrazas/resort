@@ -1,5 +1,73 @@
 h1 {
   text-align: center;
-  text-decoration: underline;
-  color: crimson;
+  color: red;
+  font-family: sans-serif;
+  background-color: lightgreen;
+}
+
+h2 {
+  text-align: center;
+  font-family: sans-serif;
+  color: red;
+  background-color: lightgreen;
+}
+
+h3 {
+  text-align: center;
+  color: red;
+  font-family: sans-serif;
+  background-color: lightgreen;
+}
+
+h4 {
+  text-align: center;
+  color: red;
+  font-family: sans-serif;
+  background-color: lightgreen;
+}
+
+p {
+  font-family: sans-serif;
+  text-align: center;
+  color: red;
+  background-color: lightgreen;
+}
+
+img {
+  border-radius: 8px;
+  max-width: 33%;
+  height: auto;
+}
+
+ul {
+  color: red;
+  font-family: sans-serif;
+  background-color: lightgreen;
+}
+
+ol {
+  color: red;
+  font-family: sans-serif;
+  background-color: lightgreen;
+}
+
+a:hover {
+  background-color: yellow;
+  color: red;
+}
+
+@keyframes fade {
+  0%    {background-color: lightblue;}
+  25%   {background-color: cyan;}
+  50%   {background-color: lightyellow;}
+  75%   {backgrond-color: lightpink;}
+  100%  {background-color: lightblue;}
+}
+
+body {
+  background-color: lightblue;
+  animation-name: fade;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
